@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InstaForgeX</title>
+  <meta name="description"
+        content="I’m Abrar Khan, a self-taught frontend web developer at InstaForgeX. I build modern, fast, and smooth-loading websites for startups and small businesses worldwide." />
+  <meta name="keywords"
+        content="Abrar Khan, InstaForgeX, instaforgex, Instaforgex, Abrar, frontend developer, web developer, portfolio, India, responsive websites" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ================= HEADER / NAVBAR ================= -->
+  <header class="header" id="home">
+    <nav class="navbar">
+      <div class="nav-brand">
+        <img src="https://iili.io/fTKt08B.md.webp" alt="InstaForgeX logo" class="nav-logo" />
+        <span class="brand-text">InstaForgeX</span>
+      </div>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links ">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero section fade-section" data-animate="fade-up">
+      <div class="hero-content">
+        
+        <h1 class="hero-title">
+          Hi, I'm <span>Abrar Khan</span>
+        </h1>
+        <p class="hero-subtitle">
+          I build web that builds brands.
+        </p> </section>
+        
+    <section class="hero section fade-section" data-animate="fade-up">
+        <p class="hero-description">
+          I’m a passionate self-taught frontend web developer from a middle-class family in India.
+          I build modern, fast, and smooth-loading websites at affordable rates, especially for
+          startups and small businesses.
+        </p>
+        </section>
+        
+    <section class="hero section fade-section" data-animate="fade-up">
+        <div class="hero-actions">
+          <a href="#services" class="btn btn-primary shine">My Services</a>
+          <a href="#projects" class="btn btn-outline shine">View Projects</a>
+        </div>
+  
+    
+        
+  <button id="blackGlassBtn" class="glass-btn">
+    Hire Me</button>
+        </div>
+      </div>
+      </section>
+      
+  
+  </header>
+
+  <!-- ================= ABOUT ================= -->
+  <main>
+    <section id="about" class="section about fade-section" data-animate="fade-up">
+      <div class="section-header">
+        <p class="section-kicker">About</p>
+        <h2 class="section-title">Who is Abrar?</h2>
+        <p class="section-subtitle">
+          A self-taught frontend developer building accessible, fast, and brand-focused web experiences.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I’m <strong>Abrar Khan</strong>, the creator behind <strong>InstaForgeX</strong>, a one-person
+            studio helping startups and small businesses get online with clean, modern, and high‑performing websites.
+          </p>
+          <p>
+            Coming from a middle-class family in India, I understand the importance of delivering
+            <strong>affordable</strong> yet <strong>high-quality</strong> solutions that actually support business growth.
+            I focus on fast loading times, responsive layouts, and smooth user experiences that feel premium without
+            premium pricing.
+          </p>
+          <p>
+            I work remotely with clients across India, USA, and other countries, turning ideas into live, production‑ready sites.
+          </p>
+        </div>
+
+        <div class="about-skills">
+          <h3 class="about-skills-title">Core Skills</h3>
+          <ul class="chips">
+            <li class="chip">HTML</li>
+            <li class="chip">CSS</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">React</li>
+            <li class="chip">TypeScript</li>
+            <li class="chip">Responsive UI</li>
+            <li class="chip">Performance optimisation</li>
+            <li class="chip">Affordable & fast websites</li>
+            <li class="chip">Artificial Intelligence</li>
+          </ul>
+
+          <div class="skill-bars">
+            <div class="skill-row">
+              <span>HTML / CSS</span>
+              <div class="skill-bar"><span style="width: 95%;"></span></div>
+            </div>
+            <div class="skill-row">
+              <span>JavaScript</span>
+              <div class="skill-bar"><span style="width: 90%;"></span></div>
+            </div>
+            <div class="skill-row">
+              <span>React & TypeScript</span>
+              <div class="skill-bar"><span style="width: 85%;"></span></div>
+            </div>
+            <div class="skill-row">
+              <span>Responsive Design</span>
+              <div class="skill-bar"><span style="width: 92%;"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section id="services" class="section services fade-section" data-animate="fade-up">
+      <div class="section-header">
+        <p class="section-kicker">Services</p>
+        <h2 class="section-title">What InstaForgeX Delivers</h2>
+        <p class="section-subtitle">
+          High-impact websites tailored for startups, small businesses, and personal brands.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card service-card fade-section" data-animate="fade-up">
+          <h3>Conversion‑Focused Landing Pages</h3>
+          <p>
+            Pixel-perfect, mobile‑first landing pages designed to convert visitors into leads and customers.
+          </p>
+          <ul>
+            <li>Clean, modern UI</li>
+            <li>Fast loading & SEO-ready</li>
+            <li>Easy to update and scale</li>
+          </ul>
+        </article>
+
+        <article class="card service-card fade-section" data-animate="fade-up">
+          <h3>Business & Startup Websites</h3>
+          <p>
+            Multi‑page sites that tell your brand story, showcase services, and build trust with your audience.
+          </p>
+          <ul>
+            <li>Responsive layouts</li>
+            <li>Clear information architecture</li>
+            <li>Brand‑aligned visuals</li>
+          </ul>
+        </article>
+
+        <article class="card service-card fade-section" data-animate="fade-up">
+          <h3>Performance & UI Revamp</h3>
+          <p>
+            Take your existing site and upgrade it with smoother UX, better visuals, and faster performance.
+          </p>
+          <ul>
+            <li>Speed and Core Web Vitals</li>
+            <li>Modern animations and micro‑interactions</li>
+            <li>Accessible, user‑friendly design</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section projects fade-section" data-animate="fade-up">
+      <div class="section-header">
+        <p class="section-kicker">Portfolio</p>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">
+          Sorry, I'm unable to show my all projects due to client's privacy issue. I showed 2 Projects, I hope these 2 will enough to You.
+        </p>
+      </div>
+
+      <div class="cards-grid project-grid">
+        <!-- GI28 -->
+        <article class="card project-card fade-section" data-animate="fade-up">
+          <div class="project-image">
+            <img src="https://i.ibb.co/twkqhkB8/IMG-20251206-132032.jpg" alt="GI28 project screenshot placeholder" />
+          </div>
+          <div class="project-content">
+            <h3>GI28</h3>
+            <p>
+              A clean and modern site built to present the GI28 brand and its digital offerings Free Followers.
+            </p>
+            <p class="project-meta">
+              Role: Frontend & Backend Developer • Tech: HTML, CSS, JavaScript, PHP and Node.js
+            </p>
+            <div class="project-actions">
+              <a href="https://gi28.site" class="btn btn-sm shine" target="_blank" rel="noopener">Live Site</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- FollVault -->
+        <article class="card project-card fade-section" data-animate="fade-up">
+          <div class="project-image">
+            <img src="https://i.ibb.co/8Ldg4jKZ/IMG-20251111-WA0000.jpg" alt="FollVault project screenshot placeholder" />
+      
+          </div>
+          <div class="project-content">
+            <h3>FollVault</h3>
+            <p>
+              SMM Panel, Payment Gateway system. I built that for $10 only</p>
+            <p class="project-meta">
+              Role: Whole Site Developer • Tech: HTML, CSS, JavaScript
+            </p>
+            <div class="project-actions">
+              <a href="https://follvault.github.io/follvault/" class="btn btn-sm shine" target="_blank" rel="noopener">Live Site</a>
+            </div>
+          </div>
+        </article>
+ <article class="card project-card fade-section" data-animate="fade-up">
+          <div class="project-image">
+            <img src="https://i.ibb.co/JR4HLh3T/logo-04-9a1517f0.png" alt="FollVault project screenshot placeholder" />
+      
+          </div>
+          <div class="project-content">
+            <h3>View All My Repositories</h3>
+            <p>
+              See my crafted Models</p>
+            <p class="project-meta">
+              Helpful For Developers
+            </p>
+            <div class="project-actions">
+              <a href="https://github.com/devabrarkhan" class="btn btn-sm shine" target="_blank" rel="noopener">Open Github</a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Genhine Intelligence -->
+         </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact fade-section" data-animate="fade-up">
+      <div class="section-header">
+        <p class="section-kicker">Contact for Hire</p>
+        <h2 class="section-title">Let’s Build Something</h2>
+        <p class="section-subtitle">
+          Ready to launch a new project or revamp your existing website? Reach out and get a quick reply.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-details">
+          <h3>Work with InstaForgeX</h3>
+          <p>
+            Share your idea, timeline, and budget. You will get a clean plan, realistic deadline, and transparent pricing.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <span>Email:</span>
+              <a href="mailto:instaforgex@gmail.com">instaforgex@gmail.com</a>
+            </li>
+            <li>
+              <span>WhatsApp:</span>
+              <a href="https://wa.me/919583075623" target="_blank" rel="noopener">
+                +91 9583075623
+              </a>
+            </li>
+            <li>
+              <span>Location:</span>
+             Odisha, India (Working with clients in USA and worldwide)
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Project details</label>
+            <textarea id="message" rows="4" placeholder="Type here what you want to make with me... " required></textarea>
+          </div>
+          <button class="liquid-button" id="liquid-btn">
+  <span>Send Form</span>
+  <div class="liquid"></div>
+  <div class="shine"></div>
+</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© <span id="year"></span> InstaForgeX •
+        Follow in
+        <a href="https://instagram.com/instaforgex" target="_blank" rel="noopener">
+          <span>Instagram</span>
+        </a>
+      </p>
+    </div>
+  </footer> 
+  <script src="main.js"></script>
+</body>
+</html>
